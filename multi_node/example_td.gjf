@@ -1,0 +1,12 @@
+%chk=old.chk
+%mem=205GB
+%nprocshared=28
+%LindaWorker
+%usessh
+#p pbe1pbe/lanl2dz geom=Checkpoint td=(nstates=3,nonadiabaticcoupling,root=1) pop=full iop(3/33=3) nosymm
+
+description;
+
+0 1
+
+
